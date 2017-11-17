@@ -22,7 +22,7 @@ class ApplicationController < Sinatra::Base
         erb :error
       end
     else
-      erb :error  
+      erb :error
     end
   end
 

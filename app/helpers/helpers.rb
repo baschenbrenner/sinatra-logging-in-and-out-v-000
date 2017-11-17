@@ -1,6 +1,6 @@
 class Helpers
   def self.current_user(sessions)
-    User.find(sessions.id)
+    User.find(sessions.user_id)
   end
 
   def is_logged_in?

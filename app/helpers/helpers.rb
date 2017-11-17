@@ -4,5 +4,5 @@ class Helpers
 
   def is_logged_in?
   end
-  
+
 end

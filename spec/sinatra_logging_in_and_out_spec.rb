@@ -82,9 +82,9 @@ describe 'ApplicationController' do
       }
       post '/login', params
       get '/account'
-      binding.pry
-      expect(last_response.body).to include("<h1>Welcome skittles123</h1>")
-      expect(last_response.body).to include("<h3>Your Balance: 1000.0</h3>")
+      
+      expect(last_response.body).to include("Welcome skittles123")
+      expect(last_response.body).to include("Your Balance: 1000.0")
     end
   end
 

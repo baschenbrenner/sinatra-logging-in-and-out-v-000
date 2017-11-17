@@ -5,4 +5,6 @@ class CreateUsers < ActiveRecord::Migration
       t.string :email
       t.float :balance
   end
+  end
+
 end
